@@ -1,7 +1,9 @@
 // ---- ---- ---- ---- VARIABLES ---- ---- ---- ----
 
 // Site Colors
-
+$siteBlue: #6DD0F7;
+$siteDarkBlue: #295C6F;
+$siteGrey: #e6e7e8;
 
 $largeMobileBreakpoint: 29.5em; 	// <472px
 $smallTabletBreakpoint: 800px; 	// <592px
@@ -20,7 +22,7 @@ $lighterGrey: lighten($black, 90%); //#e6e6e6
 $white: rgb(255,255,255); //#ffffff
 
 // Root
-$bodyColor: transparent;
+$bodyColor: $siteGrey;
 $textColor: $black;
 $columnMargin: .5em;
 $gutter: 1em;
@@ -28,11 +30,11 @@ $warningColor: red;
 $textFontSize: 1em;
 
 // Typography
-$baseFont: 'Proxima Nova', sans-serif;
+$baseFont: 'Montserrat', sans-serif;
 $baseFontSize: 100%;
 $baselineHeight: 1.35em;
 $baseFontWeight: 300;
-$headingFont: $baseFont;
+$headingFont: 'Oswald', sans-serif;
 $headingLineHeight: 1.1;
 
 $h1Color: $textColor;

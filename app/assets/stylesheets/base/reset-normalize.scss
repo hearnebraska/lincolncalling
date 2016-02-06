@@ -254,13 +254,13 @@ u {
 }
 
 ins {
-	background-color: $siteLightGrey;
+	background-color: $midGrey;
 	color: $warningColor;
 	text-decoration: none;
 }
 
 mark {
-	background-color: $siteLightGrey;
+	background-color: $midGrey;
 	color: $warningColor;
 	font-style: italic;
 	font-weight: bold;
@@ -304,23 +304,23 @@ sub {
 
 /* LINKS */
 a {
-	color: $siteBlue;
+	color: $darkGrey;
 	text-decoration: none;
 	cursor: pointer;
 
 	&:hover {
-		color: $siteBlue;
+		color: $darkGrey;
 		border: 0;
 		outline: 0;
 	}
 
 	&:visited {
-		color: $siteBlue;
+		color: $darkGrey;
 	}
 
 	&:focus,
 	&:active {
-		color: $siteBlue;
+		color: $darkGrey;
 		border: 0;
 		outline: 0;
 	}
@@ -337,13 +337,13 @@ strong a {
 
 /* SELECTION */
 ::-moz-selection {
-	background-color: $siteLightGrey;
+	background-color: $midGrey;
 	color: $white;
 	text-shadow: none;
 }
 
 ::selection {
-	background-color: $siteLightGrey;
+	background-color: $midGrey;
 	color: $white;
 	text-shadow: none;
 }
