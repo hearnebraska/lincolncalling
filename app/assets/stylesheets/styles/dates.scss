@@ -1,0 +1,10 @@
+.dates--soon {
+    position: relative;
+    .soon--container {
+        @include transform-translate(0, -50%);
+        position: absolute;
+        top: 50%;
+        padding: 2rem;
+        background-color: $midGrey;
+    }
+}
