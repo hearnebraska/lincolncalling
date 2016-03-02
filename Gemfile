@@ -31,6 +31,8 @@ gem 'dotenv-rails', :groups => [:development, :test]
 # Use Unicorn as the app server
 gem 'unicorn'
 
+gem 'rails_12factor'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
