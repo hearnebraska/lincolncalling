@@ -37,6 +37,11 @@ body {
                     top: 50%;
                 }
             }
+            .dates--hide {
+                @include hide-text();
+                margin: 0;
+                height: 0;
+            }
         }
         .dates--capitol {
             width: 96%;
@@ -63,6 +68,11 @@ body {
         max-width: 100%;
         display: block;
         margin: 0 auto;
+    }
+    .illustration--text {
+        @include hide-text();
+        margin: 0;
+        height: 0;
     }
 }
 
@@ -94,6 +104,11 @@ body {
             display: block;
             margin: 0 auto;
         }
+        .hn--text {
+            @include hide-text();
+            margin: 0;
+            height: 0;
+        }
     }
     .buttons--margin {
         height: 7.5%;
@@ -106,6 +121,11 @@ body {
             max-height: 90%;
             display: block;
             margin: 0 auto;
+        }
+        .email--text {
+            @include hide-text();
+            margin: 0;
+            height: 0;
         }
     }
     .buttons--social {
@@ -123,6 +143,11 @@ body {
                 display: block;
                 margin: 0 auto;
             }
+        }
+        .social--text {
+            @include hide-text();
+            margin: 0;
+            height: 0;
         }
         .social--network:nth-of-type(2) {
             margin: 0 5%;
