@@ -1,9 +1,24 @@
 // ---- ---- ---- ---- VARIABLES ---- ---- ---- ----
 
-// Site Colors
-$siteBlue: #6dcff6;
-$siteDarkBlue: #295b6e;
-$siteGrey: #e6e7e8;
+// Main Colors
+$primary: #ff8110;
+$secondary: #565351;
+$light: #dddddd;
+$mid: #c9c9c9;
+$dark: #8f8f8f;
+
+// Rainbow Colors
+$red: #d24265;
+$orange: #ea8063;
+$yellow: #ffd317;
+$green: #9cc438;
+$blue: #00a2af;
+$purple: #9380b3;
+
+// Dates Colors
+$datesBlue: #6dcff6;
+$datesDarkBlue: #295b6e;
+$datesGrey: #e6e7e8;
 
 $largeMobileBreakpoint: 29.5em; 	// <472px
 $smallTabletBreakpoint: 700px;
@@ -22,41 +37,47 @@ $lighterGrey: lighten($black, 90%); //#e6e6e6
 $white: rgb(255,255,255); //#ffffff
 
 // Root
-$bodyColor: $siteGrey;
-$textColor: $black;
+$bodyColor: $white;
+$textColor: $secondary;
 $columnMargin: .5em;
 $gutter: 1em;
 $warningColor: red;
 $textFontSize: 1em;
 
 // Typography
-$baseFont: 'Montserrat', sans-serif;
+$baseFont: 'Oswald', sans-serif;
 $baseFontSize: 100%;
 $baselineHeight: 1.35em;
 $baseFontWeight: 300;
-$headingFont: 'Oswald', sans-serif;
+$headingFont: 'Yanone Kaffeesatz', sans-serif;
 $headingLineHeight: 1.1;
 
+$h1Font: $headingFont;
 $h1Color: $textColor;
 $h1Size: 4em;
 $h1FontWeight: 300;
 
+$h2Font: $headingFont;
 $h2Color: $textColor;
 $h2Size: 3em;
 $h2FontWeight: 300;
 
+$h3Font: $headingFont;
 $h3Color: $textColor;
 $h3Size: 2em;
 $h3FontWeight: 300;
 
+$h4Font: $headingFont;
 $h4Color: $textColor;
 $h4Size: 1.489em;
 $h4FontWeight: 300;
 
+$h5Font: $headingFont;
 $h5Color: $textColor;
 $h5Size: 1.862em;
 $h5FontWeight: 300;
 
+$h6Font: $headingFont;
 $h6Color: $textColor;
 $h6Size: 1.241em;
 $h6FontWeight: 300;
@@ -65,10 +86,10 @@ $headingTextShadow: none;
 $codeFont: 'Source Code Pro', monospace;
 
 // Links
-$linkColor: $white;
-$linkHover: $white;
-$linkVisited: $white;
-$linkFocus: $white;
+$linkColor: $primary;
+$linkHover: $secondary;
+$linkVisited: $primary;
+$linkFocus: $primary;
 $linkWeight: bold;
 
 // Forms
